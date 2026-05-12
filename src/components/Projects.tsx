@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Кухня в стиле минимализм",
+    category: "Столешница",
+    location: "Частный клиент, Москва",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/2c9f8920-5361-43ba-8789-0e9e9ce82cf0.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Барная стойка для кафе",
+    category: "Барная стойка",
+    location: "Коммерческий объект, СПб",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/455a54a9-6066-4042-842f-6cbe4fa6be52.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Ванная комната под ключ",
+    category: "Раковина и полки",
+    location: "Частный клиент, Сочи",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/5fd72b8e-4407-4589-b787-d67abdf8809e.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
+    title: "Подоконники в загородном доме",
+    category: "Подоконники",
+    location: "Частный клиент, Подмосковье",
     year: "2024",
-    image: "/images/hously-4.png",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/185f5e7a-5471-4b8c-92a0-a01d90324271.jpg",
   },
 ]
 
@@ -69,7 +69,7 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши работы</h2>
           </div>
           <a
             href="#"
