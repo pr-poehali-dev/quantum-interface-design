@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+              <span className="font-semibold text-xl tracking-widest">БАШПРОМ</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Салон изделий из искусственного камня. Столешницы, подоконники, барные стойки и изделия на заказ — для вашего интерьера.
@@ -45,13 +45,13 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:hello@salon-kamnya.ru" className="hover:text-foreground transition-colors">
-                  hello@salon-kamnya.ru
+                <a href="mailto:stoleshni@gmail.com" className="hover:text-foreground transition-colors">
+                  stoleshni@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+79172620338" className="hover:text-foreground transition-colors">
+                  +7 (917) 262-03-38
                 </a>
               </li>
               <li>
