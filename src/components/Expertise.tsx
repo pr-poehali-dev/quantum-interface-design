@@ -59,9 +59,9 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши изделия</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Изделия</HighlightedText> для
+            <HighlightedText>Изготовим</HighlightedText> индивидуально
             <br />
-            вашего интерьера
+            для Вашего интерьера
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
             Производим столешницы, подоконники, барные стойки и изделия на заказ. Работаем с частными клиентами и дизайнерами интерьера по всей России.
