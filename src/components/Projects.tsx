@@ -22,7 +22,7 @@ const projects = [
     id: 3,
     title: "Ванная комната под ключ",
     category: "Раковина и полки",
-    location: "Частный клиент, Сочи",
+    location: "Частный клиент, Казань",
     year: "2023",
     image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/5fd72b8e-4407-4589-b787-d67abdf8809e.jpg",
   },
