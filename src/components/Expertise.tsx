@@ -59,7 +59,7 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши изделия</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Изготовим</HighlightedText> индивидуально
+            Изготовим <HighlightedText>индивидуально</HighlightedText>
             <br />
             для Вашего интерьера
           </h2>
