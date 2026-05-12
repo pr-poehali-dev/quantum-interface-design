@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="py-16 md:py-24 border-t border-border">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="grid md:grid-cols-4 gap-12 mb-16">
+        <div className="grid md:grid-cols-5 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
@@ -41,7 +41,7 @@ export function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="md:col-span-2">
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
