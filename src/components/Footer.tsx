@@ -55,6 +55,9 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <span className="text-muted-foreground">г. Казань, ул. Серова, д. 50к1</span>
+              </li>
+              <li>
                 <a href="#" className="hover:text-foreground transition-colors">
                   Телеграм
                 </a>
