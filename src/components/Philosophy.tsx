@@ -70,7 +70,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Искусственный камень — это не просто материал. Это возможность создать интерьер, который будет радовать вас каждый день своей красотой и надёжностью.
+              Стойкие к бытовым загрязнениям столешницы, стойкий к царапинам кварцевый агломерат или бесшовные столешницы любого размера из акрилового камня
             </p>
 
             {philosophyItems.map((item, index) => (
