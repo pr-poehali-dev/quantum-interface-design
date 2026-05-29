@@ -40,8 +40,8 @@ export function Header() {
           {[
             { label: "Главная", href: "#hero" },
             { label: "О нас", href: "#about" },
-            { label: "Работы", href: "#projects" },
-            { label: "Изделия", href: "#services" },
+            { label: "Наши работы", href: "#projects" },
+            { label: "Сфера деятельности", href: "#services" },
             { label: "Вопросы", href: "#faq" },
           ].map((item) => (
             <li key={item.label}>
@@ -97,8 +97,8 @@ export function Header() {
             {[
               { label: "Главная", href: "#hero" },
               { label: "О нас", href: "#about" },
-              { label: "Работы", href: "#projects" },
-              { label: "Изделия", href: "#services" },
+              { label: "Наши работы", href: "#projects" },
+              { label: "Сфера деятельности", href: "#services" },
               { label: "Вопросы", href: "#faq" },
             ].map((item) => (
               <li key={item.label}>
