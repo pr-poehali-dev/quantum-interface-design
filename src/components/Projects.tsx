@@ -4,11 +4,11 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Кухня в частном доме",
-    category: "Столешница из акрилового камня с интегрированной мойкой и подоконником",
-    location: "Казань, ул. Односторонка Гривки",
-    year: "2022",
-    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/37f32424-ea0d-43b2-8fc5-01bedd1a884e.JPG",
+    title: "Московский метрополитен",
+    category: "Изделия из акрилового камня для рабочего места кассира метро",
+    location: "Москва, ТПУ Нижегородская",
+    year: "2020",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/419645c3-a66f-4a38-954a-d1479558e36f.jpeg",
   },
   {
     id: 2,
@@ -20,11 +20,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "Московский метрополитен",
-    category: "Изделия из акрилового камня для рабочего места кассира метро",
-    location: "Москва, ТПУ Нижегородская",
-    year: "2020",
-    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/419645c3-a66f-4a38-954a-d1479558e36f.jpeg",
+    title: "Кухня в частном доме",
+    category: "Столешница из акрилового камня с интегрированной мойкой и подоконником",
+    location: "Казань, ул. Односторонка Гривки",
+    year: "2022",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/37f32424-ea0d-43b2-8fc5-01bedd1a884e.JPG",
   },
   {
     id: 4,
