@@ -8,7 +8,7 @@ const projects = [
     category: "Столешница",
     location: "Частный клиент, Москва",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/2c9f8920-5361-43ba-8789-0e9e9ce82cf0.jpg",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/37f32424-ea0d-43b2-8fc5-01bedd1a884e.JPG",
   },
   {
     id: 2,
