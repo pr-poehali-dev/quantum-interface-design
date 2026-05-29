@@ -20,11 +20,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "Санузел в квартире",
-    category: "Столешница из акрилового камня с интегрированной мойкой и подоконником",
-    location: "Казань, ул. Волкова",
-    year: "2017",
-    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/a5006f19-76d7-427c-851d-066c8408fe4a.JPG",
+    title: "Московский метрополитен",
+    category: "Изделия из акрилового камня для рабочего места кассира метро",
+    location: "Москва, ТПУ Нижегородская",
+    year: "2020",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/419645c3-a66f-4a38-954a-d1479558e36f.jpeg",
   },
   {
     id: 4,
