@@ -57,7 +57,7 @@ export function Expertise() {
     <section id="services" ref={sectionRef} className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-3xl mb-20">
-          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши изделия</p>
+          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Сфера деятельности</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
             Изготовим <HighlightedText>индивидуально</HighlightedText>
             <br />
