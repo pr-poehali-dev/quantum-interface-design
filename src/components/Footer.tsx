@@ -19,7 +19,12 @@ export function Footer() {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#projects" className="hover:text-foreground transition-colors">
-                  Работы
+                  Наши работы
+                </a>
+              </li>
+              <li>
+                <a href="#services" className="hover:text-foreground transition-colors">
+                  Сфера деятельности
                 </a>
               </li>
               <li>
@@ -28,8 +33,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-foreground transition-colors">
-                  Изделия
+                <a href="#faq" className="hover:text-foreground transition-colors">
+                  Вопросы и ответы
                 </a>
               </li>
               <li>
