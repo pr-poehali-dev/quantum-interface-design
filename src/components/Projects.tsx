@@ -16,7 +16,7 @@ const projects = [
     category: "Барная стойка",
     location: "Коммерческий объект, СПб",
     year: "2024",
-    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/455a54a9-6066-4042-842f-6cbe4fa6be52.jpg",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/7b6414be-643e-496b-b4d3-9f9dd968b5ee.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     category: "Раковина и полки",
     location: "Частный клиент, Казань",
     year: "2023",
-    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/files/5fd72b8e-4407-4589-b787-d67abdf8809e.jpg",
+    image: "https://cdn.poehali.dev/projects/3e6dd204-af77-4cb3-9f06-39c580169e0a/bucket/a5006f19-76d7-427c-851d-066c8408fe4a.JPG",
   },
   {
     id: 4,
