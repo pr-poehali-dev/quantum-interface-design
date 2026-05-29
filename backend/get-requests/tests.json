@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "name": "Get requests with wrong password",
+      "method": "POST",
+      "path": "/",
+      "body": {"password": "wrongpassword"},
+      "expectedStatus": 401
+    },
+    {
+      "name": "Get requests with correct password",
+      "method": "POST",
+      "path": "/",
+      "body": {"password": "admin123"},
+      "expectedStatus": 200
+    }
+  ]
+}

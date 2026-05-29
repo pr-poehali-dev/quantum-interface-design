@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "name": "Submit valid request",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "Иван Иванов", "phone": "+79001234567", "message": "Хочу заказать столешницу"},
+      "expectedStatus": 200
+    },
+    {
+      "name": "Submit without name",
+      "method": "POST",
+      "path": "/",
+      "body": {"phone": "+79001234567"},
+      "expectedStatus": 400
+    }
+  ]
+}
