@@ -93,6 +93,15 @@ export function CallToAction() {
               </button>
               <div className="flex flex-col sm:flex-row gap-3 mt-2">
                 <a
+                  href="https://t.me/bashpromkzn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-6 py-3 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
+                >
+                  <Icon name="Send" size={14} />
+                  Написать в Телеграм
+                </a>
+                <a
                   href="mailto:stoleshni@gmail.com"
                   className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-6 py-3 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
                 >
