@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="py-16 md:py-24 border-t border-border">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="grid md:grid-cols-5 gap-12 mb-16">
+        <div className="grid md:grid-cols-5 gap-8 md:gap-12 mb-10 md:mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">

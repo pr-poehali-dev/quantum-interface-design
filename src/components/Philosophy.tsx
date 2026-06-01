@@ -50,11 +50,11 @@ export function Philosophy() {
   return (
     <section id="about" className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наш подход</p>
-            <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
+            <h2 className="text-4xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
               Проверенные <HighlightedText>годами</HighlightedText> материалы
             </h2>
 

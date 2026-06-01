@@ -56,9 +56,9 @@ export function Expertise() {
   return (
     <section id="services" ref={sectionRef} className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="max-w-3xl mb-20">
+        <div className="max-w-3xl mb-12 md:mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Сфера деятельности</p>
-          <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
+          <h2 className="text-4xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
             Изготовим <HighlightedText>индивидуально</HighlightedText>
             <br />
             для Вашего интерьера
@@ -68,7 +68,7 @@ export function Expertise() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-x-12 gap-y-16">
+        <div className="grid md:grid-cols-2 gap-x-12 gap-y-10 md:gap-y-16">
           {expertiseAreas.map((area, index) => (
             <div
               key={area.title}

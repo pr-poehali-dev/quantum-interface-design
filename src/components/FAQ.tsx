@@ -46,7 +46,7 @@ export function FAQ() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-3xl mb-16">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Вопросы</p>
-          <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-7xl">
+          <h2 className="text-4xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-7xl">
             Частые вопросы
           </h2>
         </div>
@@ -73,7 +73,7 @@ export function FAQ() {
                   openIndex === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="text-muted-foreground leading-relaxed pb-6 pr-12">{faq.answer}</p>
+                <p className="text-muted-foreground leading-relaxed pb-6 pr-4 md:pr-12">{faq.answer}</p>
               </div>
             </div>
           ))}
