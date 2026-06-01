@@ -66,7 +66,7 @@ export function Projects() {
   return (
     <section id="projects" className="py-32 md:py-29 bg-secondary/50">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-10 md:mb-16">
           <div>
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши работы</h2>
@@ -88,7 +88,7 @@ export function Projects() {
               onMouseEnter={() => setHoveredId(project.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
-              <div ref={(el) => (imageRefs.current[index] = el)} className="relative overflow-hidden aspect-[4/3] mb-6">
+              <div ref={(el) => (imageRefs.current[index] = el)} className="relative overflow-hidden aspect-[4/3] mb-4">
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
@@ -105,14 +105,14 @@ export function Projects() {
                 />
               </div>
 
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="text-xl font-medium mb-2 group-hover:underline underline-offset-4">{project.title}</h3>
-                  <p className="text-muted-foreground text-sm">
+              <div className="flex items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <h3 className="text-lg md:text-xl font-medium mb-1 group-hover:underline underline-offset-4">{project.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-snug">
                     {project.category} · {project.location}
                   </p>
                 </div>
-                <span className="text-muted-foreground/60 text-sm">{project.year}</span>
+                <span className="text-muted-foreground/60 text-sm shrink-0">{project.year}</span>
               </div>
             </article>
           ))}
