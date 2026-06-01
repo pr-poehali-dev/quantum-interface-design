@@ -63,13 +63,8 @@ export function Footer() {
                 <span className="text-muted-foreground">г. Казань, ул. Серова, д. 50к1</span>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="https://t.me/bashpromkzn" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Телеграм
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  ВКонтакте
                 </a>
               </li>
             </ul>
