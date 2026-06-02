@@ -157,7 +157,7 @@ export default function Portfolio() {
           </div>
 
           <div className="mt-16 text-center">
-            <p className="text-muted-foreground mb-6">Хотите добавить свой проект в портфолио?</p>
+            <p className="text-muted-foreground mb-6">Хотите рассчитать изделие?</p>
             <Link
               to="/#contact"
               className="inline-flex items-center gap-2 bg-foreground text-background px-6 py-3 text-sm hover:bg-foreground/90 transition-colors"
