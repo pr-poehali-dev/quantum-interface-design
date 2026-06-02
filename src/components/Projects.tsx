@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import { ArrowUpRight } from "lucide-react"
+import { Link } from "react-router-dom"
 
 const projects = [
   {
@@ -71,13 +72,13 @@ export function Projects() {
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши работы</h2>
           </div>
-          <a
-            href="#"
+          <Link
+            to="/portfolio"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
           >
             Смотреть все проекты
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          </a>
+          </Link>
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 md:gap-8">
