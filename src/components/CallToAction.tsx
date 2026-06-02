@@ -113,7 +113,14 @@ export function CallToAction() {
                   className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-6 py-3 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
                 >
                   <Icon name="Phone" size={14} />
-                  Позвонить нам
+                  +7 (917) 262-03-38
+                </a>
+                <a
+                  href="tel:+79178667034"
+                  className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-6 py-3 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
+                >
+                  <Icon name="Phone" size={14} />
+                  +7 (917) 866-70-34
                 </a>
               </div>
             </form>
