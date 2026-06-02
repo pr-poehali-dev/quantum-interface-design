@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="py-16 md:py-24 border-t border-border">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="grid md:grid-cols-5 gap-8 md:gap-12 mb-10 md:mb-16">
+        <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-10 md:mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
@@ -13,40 +13,8 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Navigation */}
-          <div>
-            <h4 className="text-sm font-medium mb-4">Навигация</h4>
-            <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>
-                <a href="/#projects" className="hover:text-foreground transition-colors">
-                  Наши работы
-                </a>
-              </li>
-              <li>
-                <a href="/#services" className="hover:text-foreground transition-colors">
-                  Сфера деятельности
-                </a>
-              </li>
-              <li>
-                <a href="/#about" className="hover:text-foreground transition-colors">
-                  О нас
-                </a>
-              </li>
-              <li>
-                <a href="/#faq" className="hover:text-foreground transition-colors">
-                  Вопросы и ответы
-                </a>
-              </li>
-              <li>
-                <a href="/#contact" className="hover:text-foreground transition-colors">
-                  Контакты
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* Contact */}
-          <div className="md:col-span-2">
+          <div>
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
