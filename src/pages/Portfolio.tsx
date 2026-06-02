@@ -158,13 +158,31 @@ export default function Portfolio() {
 
           <div className="mt-16 text-center">
             <p className="text-muted-foreground mb-6">Хотите рассчитать изделие?</p>
-            <Link
-              to="/#contact"
-              className="inline-flex items-center gap-2 bg-foreground text-background px-6 py-3 text-sm hover:bg-foreground/90 transition-colors"
-            >
-              Связаться с нами
-              <Icon name="ArrowRight" size={14} />
-            </Link>
+            <div className="flex flex-col sm:flex-row justify-center gap-3">
+              <a
+                href="https://t.me/bashpromkzn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-foreground text-background px-6 py-3 text-sm hover:bg-foreground/90 transition-colors"
+              >
+                <Icon name="Send" size={14} />
+                Написать в Телеграм
+              </a>
+              <a
+                href="tel:+79172620338"
+                className="inline-flex items-center justify-center gap-2 border border-border px-6 py-3 text-sm hover:bg-secondary transition-colors"
+              >
+                <Icon name="Phone" size={14} />
+                +7 (917) 262-03-38
+              </a>
+              <a
+                href="tel:+79178667034"
+                className="inline-flex items-center justify-center gap-2 border border-border px-6 py-3 text-sm hover:bg-secondary transition-colors"
+              >
+                <Icon name="Phone" size={14} />
+                +7 (917) 866-70-34
+              </a>
+            </div>
           </div>
 
         </div>
