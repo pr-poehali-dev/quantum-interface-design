@@ -1,9 +1,12 @@
 import { useState, useEffect, MouseEvent } from "react"
+import { useLocation } from "react-router-dom"
 import { cn } from "../lib/utils"
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const { pathname } = useLocation()
+  const contactHref = pathname === "/" ? "#contact" : `${pathname}#contact`
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +59,7 @@ export function Header() {
         </ul>
 
         <a
-          href="/#contact"
+          href={contactHref}
           className={cn(
             "hidden md:inline-flex items-center gap-2 text-sm px-5 py-2.5 transition-all duration-300",
             scrolled
@@ -114,7 +117,7 @@ export function Header() {
           </ul>
 
           <a
-            href="/#contact"
+            href={contactHref}
             className="inline-flex items-center justify-center gap-2 text-sm px-5 py-2.5 bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white transition-all duration-300 mb-4"
             onClick={closeMobileMenu}
           >

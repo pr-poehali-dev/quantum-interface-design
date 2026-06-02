@@ -156,7 +156,7 @@ export default function Portfolio() {
             ))}
           </div>
 
-          <div className="mt-16 text-center">
+          <div id="contact" className="mt-16 text-center">
             <p className="text-muted-foreground mb-6">Хотите рассчитать изделие?</p>
             <div className="flex flex-col sm:flex-row justify-center gap-3">
               <a
