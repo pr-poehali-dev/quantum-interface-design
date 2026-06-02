@@ -18,27 +18,27 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Навигация</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="#projects" className="hover:text-foreground transition-colors">
+                <a href="/#projects" className="hover:text-foreground transition-colors">
                   Наши работы
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-foreground transition-colors">
+                <a href="/#services" className="hover:text-foreground transition-colors">
                   Сфера деятельности
                 </a>
               </li>
               <li>
-                <a href="#about" className="hover:text-foreground transition-colors">
+                <a href="/#about" className="hover:text-foreground transition-colors">
                   О нас
                 </a>
               </li>
               <li>
-                <a href="#faq" className="hover:text-foreground transition-colors">
+                <a href="/#faq" className="hover:text-foreground transition-colors">
                   Вопросы и ответы
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-foreground transition-colors">
+                <a href="/#contact" className="hover:text-foreground transition-colors">
                   Контакты
                 </a>
               </li>
