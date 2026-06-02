@@ -18,22 +18,27 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:stoleshni@gmail.com" className="hover:text-foreground transition-colors">
-                  stoleshni@gmail.com
-                </a>
-              </li>
-              <li>
                 <a href="tel:+79172620338" className="hover:text-foreground transition-colors">
                   +7 (917) 262-03-38
                 </a>
               </li>
               <li>
-                <span className="text-muted-foreground">г. Казань, ул. Серова, д. 50к1</span>
+                <a href="tel:+79178667034" className="hover:text-foreground transition-colors">
+                  +7 (917) 866-70-34
+                </a>
               </li>
               <li>
                 <a href="https://t.me/bashpromkzn" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Телеграм
                 </a>
+              </li>
+              <li>
+                <a href="mailto:stoleshni@gmail.com" className="hover:text-foreground transition-colors">
+                  stoleshni@gmail.com
+                </a>
+              </li>
+              <li>
+                <span className="text-muted-foreground">г. Казань, ул. Серова, д. 50к1</span>
               </li>
             </ul>
           </div>
