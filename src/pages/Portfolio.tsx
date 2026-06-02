@@ -169,6 +169,13 @@ export default function Portfolio() {
                 Написать в Телеграм
               </a>
               <a
+                href="mailto:stoleshni@gmail.com"
+                className="inline-flex items-center justify-center gap-2 border border-border px-6 py-3 text-sm hover:bg-secondary transition-colors"
+              >
+                <Icon name="Mail" size={14} />
+                Написать на почту
+              </a>
+              <a
                 href="tel:+79172620338"
                 className="inline-flex items-center justify-center gap-2 border border-border px-6 py-3 text-sm hover:bg-secondary transition-colors"
               >
