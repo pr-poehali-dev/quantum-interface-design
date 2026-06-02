@@ -21,8 +21,10 @@ export function Header() {
   }
 
   const scrollToTop = (e: MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault()
-    window.scrollTo({ top: 0, behavior: "smooth" })
+    if (pathname === "/") {
+      e.preventDefault()
+      window.scrollTo({ top: 0, behavior: "smooth" })
+    }
   }
 
   return (
