@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
@@ -83,6 +83,10 @@ const projects = [
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("Все")
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const filtered = activeCategory === "Все"
     ? projects
