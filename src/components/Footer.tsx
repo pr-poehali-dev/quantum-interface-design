@@ -46,14 +46,9 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Салон искусственного камня. Все права защищены.</p>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-foreground transition-colors">
-              Политика конфиденциальности
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors">
-              Условия использования
-            </a>
+          <div className="flex flex-col gap-1">
+            <p>© 2025 Салон искусственного камня. Все права защищены.</p>
+            <p>ООО «БАШПРОМ» · ОГРН: 1181690088326</p>
           </div>
         </div>
       </div>
